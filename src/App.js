@@ -48,22 +48,11 @@ function App(props) {
 
                 {props.children}
               </div>
-
-              {/* <BlogList /> */}
             </div>
           </div>
         </section>
 
         <Footer />
-
-        {/* <Link to="/Bai31">Bài 31-</Link>
-      <Link to="/Mailbox">Mailbox-</Link>
-      <Link to="/NumberList">NumberList-</Link>
-      <Link to="/bai13">Bài 13-</Link>
-      <Link to="Bai32">Bai 32-</Link>
-      <Link to="/Bai32(2)">Bài 32(2)-</Link>
-      <Link to="/Bai18">Bài 18-</Link>
-      <Link to="/Bai18(2)">Bài 18(2)</Link> */}
       </div>
     </UserContext.Provider>
   );
